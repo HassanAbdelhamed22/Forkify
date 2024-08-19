@@ -4,8 +4,7 @@
   "description": "Recipe App",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "browserslist": "last 2 versions, > 0.5% and ie >= 11"
+    "build": "parcel build index.html"
   },
   "author": "Hassan Abdelhamed",
   "license": "ISC",
@@ -15,7 +14,13 @@
   },
   "dependencies": {
     "core-js": "^3.35.0",
+    "forkify": "file:",
     "fractional": "^1.0.0",
     "regenerator-runtime": "^0.14.1"
-  }
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 0.5%",
+    "ie >= 11"
+  ]
 }
